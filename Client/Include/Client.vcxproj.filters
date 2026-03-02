@@ -43,6 +43,9 @@
     <Filter Include="02. GameObject\03. Terrain">
       <UniqueIdentifier>{00bb259b-bb85-4656-9b51-1ae895223810}</UniqueIdentifier>
     </Filter>
+    <Filter Include="02. GameObject\04. SkyBox">
+      <UniqueIdentifier>{c96c7043-059b-42fe-8e69-710ce49427da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -84,6 +87,9 @@
     <ClInclude Include="..\Header\CTerrain.h">
       <Filter>02. GameObject\03. Terrain</Filter>
     </ClInclude>
+    <ClInclude Include="..\Header\CSkyBox.h">
+      <Filter>02. GameObject\04. SkyBox</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
@@ -115,6 +121,9 @@
     </ClCompile>
     <ClCompile Include="..\Code\CTerrain.cpp">
       <Filter>02. GameObject\03. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSkyBox.cpp">
+      <Filter>02. GameObject\04. SkyBox</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
